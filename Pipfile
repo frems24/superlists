@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+django = "<1.12"
+selenium = "<4"
 
 [dev-packages]
 
