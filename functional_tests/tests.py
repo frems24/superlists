@@ -39,6 +39,8 @@ class NewVisitorTest(unittest.TestCase):
 
         self.check_for_row_in_list_table('1: Buy peacock feathers')
         self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
+        # TODO Clean up after FT runs
+        # TODO Support more than one list!
 
         self.fail('Finish the test!')
 
