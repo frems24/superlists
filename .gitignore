@@ -3,4 +3,3 @@ geckodriver.log
 *.pyc
 .idea/
 .DS_Store
-static/
