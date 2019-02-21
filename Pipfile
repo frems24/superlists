@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 django = "<1.12"
-selenium = "<4"
 
 [dev-packages]
+selenium = "<4"
 
 [requires]
 python_version = "3.6"
