@@ -4,3 +4,4 @@ geckodriver.log
 .idea/
 .DS_Store
 static/
+.env
