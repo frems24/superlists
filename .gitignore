@@ -2,6 +2,7 @@ db.sqlite3
 geckodriver.log
 *.pyc
 .idea/
+.venv/
 .DS_Store
 static/
 .env
