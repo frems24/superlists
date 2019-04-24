@@ -7,9 +7,10 @@ User=wg
 WorkingDirectory=/home/wg/ottg/DOMAIN
 EnvironmentFile=/home/wg/ottg/DOMAIN/.env
 
-ExecStart=/home/wg/.local/share/virtualenvs/PIPENV/bin/gunicorn \
+ExecStart=/home/wg/ottg/DOMAIN/.venv/bin/gunicorn \
     --bind unix:/tmp/DOMAIN.socket \
     superlists.wsgi:application
 
 [Install]
 WantedBy=multi-user.target
+
