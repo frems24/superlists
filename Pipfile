@@ -9,6 +9,7 @@ gunicorn = "*"
 
 [dev-packages]
 selenium = "<4"
+fabric3 = "*"
 
 [requires]
 python_version = "3.6"
